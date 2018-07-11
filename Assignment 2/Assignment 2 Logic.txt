@@ -1,0 +1,62 @@
+CONVERTING FUNCTIONS WRITTEN IN SIMPLE JS TO ES6
+
+
+=>First Function
+
+1> Using arrow function declaration 
+
+2> Converting var declaration to let as to implement block scope too
+
+3> Using for of loop instead of for in loop
+
+
+=>Second Function
+
+1> Using arrow function declaration 
+
+2> Converting var declaration to let as to implement block scope too
+
+=> Firstly I have stored the JSON data in the variable bigBang.
+
+
+DISPLAYING THE EPISODE INFORMATION BY TAKING SEASON AND EPISODE NUMBER
+
+1> The season number and episode number is taken as input from user and passed on to the function
+
+2> Arrow function is declared that takes episode number and season number as input
+
+3> A variable named 'epFound' is used to check if the entered episode by the user matches or not
+
+4> A loop is used to iterate every episode in the bigBang data and then to check if the season and the episode number matches the input from the user.
+If the data matches the info is displayed in console.
+
+5> If the episode is not found the an alert is given to enter correct season or episode number.
+
+
+DISPLAYING MULTIPLE EPISODE INFORMATION BY TAKING ID'S AS INPUT
+
+1> User is asked to enter the number of episode id first and then to enter all episode id's one by one. These are pushed to an array and then passed to the function(by using SPREAD parameter to convert array to Comma Seperated Values.
+
+2> An arrow function is declared that takes episode id's as input(by using REST parameters as the input is more than one)
+
+3> For loop to iterate all the episodes and the next foe loop to iterate all episode id in input data array
+
+4> Checking if input id matches with episode id, if it matches then the result is displayed in console.
+
+
+DISPLAYING THE EPISODE INFORMATION BY ENTERING THE EPISODE NAME
+
+1> The episode name is taken as input from user and the first letter is capitalized and passed on to the function.
+
+2> Arrow function is declared that takes episode name as input
+
+3> A loop is used to iterate every episode in the bigBang data and then to check if the episode name matches the input from the user. If the data matches the info is displayed in console.
+
+4> If the episode name dosen't match then an alert is displayed to enter corrrect episode name
+
+
+
+3> 
+
+
+ 

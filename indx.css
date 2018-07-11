@@ -1,0 +1,108 @@
+:root{
+	font-size: 16px;
+}
+.container{
+	background: blue;
+	padding: 1.4rem;
+	margin: 1rem;
+	height: 7vmax;
+	box-shadow: 1px 14px 20px black;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	height: 50vw;
+	padding: 20px;
+}
+
+.container .heading{
+	font-size: 3rem;
+	text-shadow: 0px 14px 16px black;
+	color: white;
+	text-align: center;
+	height: 40vmin;
+}
+
+.flex-item{
+	width:50%;
+}
+
+.font-type{
+	font-size: 4rem;
+	color: white;
+}
+
+.red{
+	background: red;
+}
+
+.coral{
+	background: coral;
+}
+
+.green{
+	background: green;
+}
+
+.black{
+	background: black;
+}
+
+
+@media screen and (min-width: 641px) {
+	.container{
+		background-color: blue;
+	}
+	.container .heading{
+		font-size: 4rem;
+		color: white;
+	}
+	.red{
+		width: 50%;
+	}
+	
+	.coral{
+		width: 50%;
+	}
+
+	.green{
+		width: 100%;
+	}
+
+	.black{
+		width: 100%;
+	}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+	.container{
+		background-color: black;
+	}
+	.container .heading{
+		font-size: 2rem;
+		color: red;
+	}
+	.flex{
+		height: 100vw;
+	}
+	.font-type{
+		font-size: 2rem;
+	}
+	.red{
+		width: 100%;
+	}
+	
+	.coral{
+		width: 100%;
+	}
+
+	.green{
+		width: 100%;
+	}
+
+	.black{
+		width: 100%;
+	}
+}
+

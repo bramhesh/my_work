@@ -1,0 +1,46 @@
+{
+	"url" : "https://www.amazon.in/OnePlus-Mirror-Black-64GB-Memory/dp/B0756Z43QS/ref=lp_1389401031_1_1?s=electronics&ie=UTF8&qid=1530603009&sr=1-1",
+	"ue_id" : "ZP2FCMJFDPTDPQHKMS2Y",
+	"ue_mid" : "A21TJRUUN4KGV",
+    "ue_sid" : 257-0938029-9833525,
+    "ASIN" : "B0756Z43QS",
+    "source" : {
+    	"country" : "India",
+    	"site" : "amazon.in"
+    },
+    "name" : "OnePlus-Mirror-Black-64GB-Memory",
+    "OS" : "Android",
+    "RAM" : "6 GB",
+    "Price" : 34999,
+    "in Stock" : "yes",
+    "Seller" : "Rocket Kommerce LLP",
+    "Weight" : "177 gm",
+    "Battery" : "1 Lithium ion Battery",
+    "Battery Power" : 3300,
+    "Model No" : "A6000",
+    "Wireless Technologies" : [
+    	"Bluetooth",
+    	"Wifi Hotspot"
+    ],
+    "Camera" : "16 MP",
+    "Color" : "Mirror Black",
+    "Special Features" : [
+    	"Fingerprint",
+    	"Accelerometer",
+    	"Gyroscope",
+    	"Proximity",
+    	"RGB Ambient light sensor",
+    	"Sensor hub"
+    ],
+    "mean rating" : 4.4,
+    "best rating" : 5.0,
+    "images" : [
+    	"https://images-na.ssl-images-amazon.com/images/I/81YgdWkOP0L._SY679_.jpg",
+    	"https://images-na.ssl-images-amazon.com/images/I/81YgdWkOP0L._SY445_.jpg"
+    ],
+    "language" : "English",
+    "date first available" : "21 May 2018"
+}
+
+    
+

@@ -1,0 +1,53 @@
+1> Firstly I have stored the JSON data in the variable pokedex.
+
+DISPLAYING THE DATA OF A POKEMON
+
+A> A pokemon name is taken as input from the user and passed on the function. 
+
+B> In this I declared a function that takes name as input (passed on as arguments).
+
+C> A variable named 'pokemonFound' is used to check if the entered name by the user matches or not
+
+D> A loop is used to iterate every pokemon in JSON data and to check if it matches the name entered by User. If it matches the data of the pokemon is displayed in the "console".
+
+E> If the entered pokemon is not found or any invalid data is entered then an alert is given to user to enter correct values.
+
+CHECKING WHICH POKEMON HAVE THE ENTERED POKEMON IN THEIR NEXT EVOLUTION
+
+A> A pokemon name is taken as input from the user and passed on the function. 
+
+B> In this I declared a function that takes name as input (passed on as arguments).
+
+C> A loop is used to iterate all pokemons and to check if their next_evolution field is not empty.
+
+D> Another loop is used for iterating all the next evolutions of each pokemon and the it is checked if it matches the name entered.If it matches the name of the pokemon is printed.
+
+E> If the entered pokemon is not found or any invalid data is entered then an alert is given to user to enter correct values.
+
+DISPLAY NAMES OF ALL POKEMON'S THAT HAVE THE ENTERED WEAKNESS
+
+A> Weakness is taken as input from the user and passed on the function.
+
+B> A variable is used to check is the search for weakness is completed or not. First loop is used to iterate all the pokemon's in JSON data set.
+
+C> Second loop is used to iterate through all the weaknesses of each pokemon. A check is then done to match the weakness with the input weakness.
+If the search is confirmed then the name of that pokemon is displayed.
+
+D> If the weakness is not found then the user is alerted to enter corrrect data or data not found. 
+
+JSON DATA SET FOR E-COMMERCE WEBSITE
+
+1> I made this JSON data for amazon.in for a particular product(mobile phone-One Plus 6)
+
+2> Inside this i have assigned keys:value pairs.
+
+3> It has an object SOURCE which has the country and site.
+
+4> I have created 3 arrays Wireless Technologies, Special Features and images.
+
+5> Special Features array has 6 string objects, that describe the features of the phone. 
+
+6> I have used data from URL "https://www.amazon.in/OnePlus-Mirror-Black-64GB-Memory/dp/B0756Z43QS/ref=lp_1389401031_1_1?s=electronics&ie=UTF8&qid=1530603009&sr=1-1",
+	"ue_id": "ZP2FCMJFDPTDPQHKMS2Y". All the id's mentioned in the data are taken form the amazon page.
+
+    
